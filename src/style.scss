@@ -1,0 +1,24 @@
+.calendar {
+  .calendar-body {
+    width: 320px;
+
+    button {
+      box-shadow: none !important;
+    }
+
+    table {
+      table-layout: fixed;
+    }
+
+    .hoverable {
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+
+    .months-overlay,
+    .years-overlay {
+      top: 0;
+    }
+  }
+}
